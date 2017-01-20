@@ -1,9 +1,189 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
-	<title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/styles.css">
+  <link rel="stylesheet" href="static/css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Share+Tech+Mono" rel="stylesheet">
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+  <link href="bower_components/paper-input/paper-input.html" rel="import">
+  <link href="bower_components/paper-input/paper-textarea.html" rel="import">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+  <script src="static/js/all.js"></script>
 </head>
+
 <body>
-	<h1>GH-Pages</h1>
-	<div>Teste</div>
+
+<nav class="navbar navbar-default navbar-fixed-top transp">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand logo scrollto" href="#head">Seu Nome</a>
+        <button class="navbar-toggle transp" data-toggle="collapse" data-target=".headerclpse">
+        </button>
+      </div>
+      <div class="collapse navbar-collapse headerclpse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="center"><a class="scrollto" href="#servicos">Serviços</a></li>
+          <li class="center"><a class="scrollto" href="#portfolio">Portfolio</a></li>
+          <li class="center"><a class="scrollto" href="#tecnologias">Tecnologias</a></li>
+          <li class="center"><a class="scrollto" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BANNER -->
+  <header id="head" class="head sects vcenter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 center">
+          <img src="static/images/grupysp.png" >
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!-- SERVIÇOS -->
+  <section id="servicos" class="sects objective vcenter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 center">
+          <h2> Serviços </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 center">
+          <h3> Análise de Dados </h3>
+          <h4> <!-- TEXTO AQUI -->
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet ipsum vitae ex volutpat eleifend sit amet a lectus. Phasellus eleifend aliquet eros eget maximus. 
+          </h4>
+        </div>
+        <div class="col-lg-4 center">
+          <h3> Desenvolvimento Web </h3>
+          <h4> <!-- TEXTO AQUI -->
+            Maecenas volutpat elit nec odio ultricies, et dignissim risus cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+          </h4>
+        </div>
+        <div class="col-lg-4 center">
+          <h3> Internet of Things </h3>
+          <h4> <!-- TEXTO AQUI -->
+            Cras suscipit tortor eu ligula sollicitudin, sit amet commodo velit rutrum. Ut vel massa non orci vulputate cursus sed eget metus. Phasellus eu velit tempus, auctor enim id, ultrices nulla. 
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- PORTFOLIO -->
+  <section id="portfolio" class="sects idea vcenter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 center">
+          <h2> Portfolio </h2>
+          <h4>
+              <br />
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-6 center">
+              <a href="www.devnhealth.com.br" target="_blank">
+              <img src="static/images/devnhealth.png" height="200px" width="250px"/>
+
+              <br />
+              <h4>
+                Dev'n Health
+              </h4>
+              </a>
+          </div>
+          <div class="col-lg-6 center">
+              <a href="www.magnolia-jewellery.com.au" target="_blank">
+              <img src="static/images/magnolia.png" height="200px" width="250px"/>
+              <br />
+              <h4>
+                Magnolia Silver Jewellery
+              </h4>
+              </a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+<!-- TECNOLOGIAS -->
+  <section id="tecnologias" class="objective vcenter">
+    <div class="container" style='padding-top:50px;'>
+      <div class="row center">
+        <div class="col-lg-12 center">
+          <h2> Tecnologias </h2>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12 card">
+          <div class="crop">
+            <div class="round jquery"></div>
+          </div>
+            jQuery
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12 card">
+          <div class="crop">
+            <div class="round django"></div>
+          </div>
+            Django
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12 card">
+          <div class="crop">
+            <div class="round python3"></div>
+          </div>
+          Python 3
+        </div>
+        <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-xs-12 card">
+          <div class="crop">
+            <div class="round html5"></div>
+          </div>
+            HTML5
+        </div>
+        <div class="col-lg-4 col-md-4  col-xs-12 card">
+          <div class="crop">
+            <div class="round css3"></div>
+          </div>
+          CSS3
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contact" class="sects contact vcenter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 center">
+          <h2> Contato </h2>
+          <form class="contactform" >
+          <style is="custom-style">
+            :root {
+              --iron-autogrow-textarea: {
+                font-family: 'Share Tech Mono', monospace !important;
+              };
+              --paper-input-container-focus-color: #6fcecb;
+              --paper-input-container-input: {
+                font-family: 'Share Tech Mono', monospace !important;
+              }
+            }
+          </style>
+            <paper-input id="formname" required auto-validate error-message="Por favor, insira seu nome" label="Nome"></paper-input>
+            <paper-input id="formemail" required auto-validate error-message="Por favor, insira seu email" label="Email"></paper-input>
+            <paper-textarea id="formmsg" auto-validate label="Mensagem"></paper-textarea>
+            <button class="contactsubmit"><b>Enviar!</b></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 </body>
 </html>
