@@ -30,7 +30,7 @@
 |   |── ── (imagens do projeto)
 |   └── js
 |   |── ── all.js
-|   |── ── sootstrap.min.js
+|   |── ── bootstrap.min.js
 ├── bower components
     ├── (muitos arquivos)
 ```
